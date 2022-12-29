@@ -6,11 +6,6 @@ router.get('/', (req, res)=>{
     res.end('<h1 align="center">WELLCOME TO THE PROJECT BACKEND</h1>')
 })
 
-router.get('/', (req, res)=>{
-    debug.log("Access to / ")
-    res.end('<h1 align="center">WELLCOME TO THE PROJECT BACKEND</h1>')
-})
-
 router.post('/login', (req, res)=>{
     debug.log("Access to / ")
     res.end('<h1 align="center">WELLCOME TO THE PROJECT BACKEND</h1>')
