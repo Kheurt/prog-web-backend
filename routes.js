@@ -1,4 +1,5 @@
 const router = require('express').Router()
+const debug = require('debug')
 
 router.get('/', (req, res)=>{
     debug.log("Access to / ")
