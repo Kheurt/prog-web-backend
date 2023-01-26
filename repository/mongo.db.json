@@ -12,6 +12,7 @@
   "messages":{
     "from":"phone number",
     "to":"phone number",
-    "content":"string"
+    "content":"string",
+    "date":"10-01-2023"
   }
 }
