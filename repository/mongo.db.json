@@ -1,0 +1,17 @@
+{
+  "user":{
+    "name":"string",
+    "phone":"primary key",
+    "password":"string"
+  },
+  "contacts":{
+    "id":"id",
+    "name":"string",
+    "phone":"phone number"
+  },
+  "messages":{
+    "from":"phone number",
+    "to":"phone number",
+    "content":"string"
+  }
+}
